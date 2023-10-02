@@ -1,0 +1,20 @@
+<%- include('partials/header.ejs') %>
+<main>
+    <div class="container">
+        <p>
+            <% if (apiData) { %>
+                <h2>Here are the relevant links for recent job openings for your selection criteria: </h2>
+                <br/>
+                <% apiData.results.forEach(result => { %>
+                    <p><a href="<%= result.url %>" target="_blank"><%= result.title %></a></p>
+               <% }); %>
+           <% } else { %>
+            <p>Oops! No results found for your filter criteria.</p>
+            <% } %>
+        </p>
+    </div>
+
+</main>
+
+
+<%- include('partials/footer.ejs') %>

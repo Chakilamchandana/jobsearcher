@@ -1,0 +1,185 @@
+/*----------bootstrap-navbar-css------------*/
+
+
+
+body{
+    font-family: 'Comfortaa', cursive;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    /* align-items: center; */
+    font-size: 16px;
+  }
+.navbar{
+    box-shadow: 0px 7px #b5d2ff;
+
+}
+
+a{
+    text-decoration: none !important;
+}
+
+  footer {
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+p {
+    color: whtie;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1em;
+    text-align: justify;
+  }
+
+.heading{
+    text-align: center;
+}
+
+.aboutMe{
+    height: 100px;
+    text-align: justify;
+    margin: 5rem 5rem 38rem 5rem;
+}
+
+.aboutAPI{
+    height: 100px;
+    text-align: justify;
+    margin: 5rem 5rem 58rem 5rem;
+}
+
+.profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+
+  }
+
+.copyright {
+    color: white;
+  }
+
+main {
+    /* text-align: center; */
+    padding: 5vmin;
+    flex: 1 0 auto;
+}
+
+footer .wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(https://i.ibb.co/rZt4Nhg/wave.png);
+    background-size: 1000px 100px;
+  }
+  
+  footer .wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 4s linear infinite;
+  }
+  
+  footer .wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave_02 4s linear infinite;
+  }
+  footer .wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 0;
+    animation: animateWave 3s linear infinite;
+  }
+  
+  footer .wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animateWave_02 3s linear infinite;
+  }
+
+.search{
+    border: none;
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 1px 2px black ;
+    background-color: #3586ff;
+    color: white;
+    transition: 0.2s all;
+}
+
+.search:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+
+  form {
+    margin-top: 50px;
+    width: 40rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.name{
+    color: white;
+}
+
+  .feedback-input {
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid #3586ff;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+  }
+  
+  .feedback-input:focus {
+    border: 2px solid #3586ff;
+  }
+
+
+  
+  @keyframes animateWave {
+    0% {
+      background-position-x: 1000px;
+    }
+    100% {
+      background-position-x: 0px;
+    }
+  }
+  
+  @keyframes animateWave_02 {
+    0% {
+      background-position-x: 0px;
+    }
+    100% {
+      background-position-x: 1000px;
+    }
+  }
+
+  

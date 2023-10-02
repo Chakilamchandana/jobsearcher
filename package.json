@@ -1,0 +1,23 @@
+{
+  "name": "job-searcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chandana Chakilam",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.2",
+    "country-select-js": "^2.1.0",
+    "country-state-picker": "^1.1.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jquery": "^3.7.1",
+    "nodemon": "^3.0.1"
+  }
+}
