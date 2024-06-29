@@ -1,27 +1,49 @@
 <%- include('partials/header.ejs') %>
 
 <main>
-   
-        <form action="/get-jobs" method="post">
-           
-                <input  class="feedback-input" required type="text" value="" placeholder="Enter the country*" id="regionInput" name="regionInput"> 
-          
+  <form action="/get-jobs" method="post">
+    <input
+      class="feedback-input"
+      required
+      type="text"
+      value=""
+      placeholder="Enter the country*"
+      id="countryInput"
+      name="countryInput"
+    />
 
-            
-                <input  class="feedback-input" required type="text" value="" placeholder="Enter the state or region*" id="regionInput" name="regionInput">
-           
+    <input
+      class="feedback-input"
+      required
+      type="text"
+      value=""
+      placeholder="Enter the state or region*"
+      id="regionInput"
+      name="regionInput"
+    />
 
-           
-                <input class="feedback-input"  required type="text" value="" placeholder="Enter the city*" id="cityInput" name="cityInput">
-            
+    <!-- <input
+      class="feedback-input"
+      required
+      type="text"
+      value=""
+      placeholder="Enter the city*"
+      id="cityInput"
+      name="cityInput"
+    /> -->
 
-           
-                <input  class="feedback-input" required type="text" value="" placeholder="Enter the job category*       Ex: Software Developer" id="categoryInput" name="categoryInput">
-           
-            <button class="search" type="submit">Search</button> 
-        </form>           
-   
+    <input
+      class="feedback-input"
+      required
+      type="text"
+      value=""
+      placeholder="Enter the job category*   Ex: Software Developer"
+      id="categoryInput"
+      name="categoryInput"
+    />
+
+    <button class="search" type="submit">Search</button>
+  </form>
 </main>
-
 
 <%- include('partials/footer.ejs') %>

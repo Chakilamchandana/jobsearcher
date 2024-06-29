@@ -3,7 +3,7 @@
     <div class="container">
         <p>
             <% if (apiData) { %>
-                <h2>Here are the relevant links for recent job openings for your selection criteria: </h2>
+                <h2>Here are the relevant links for recent job openings that matches selection criteria: </h2>
                 <br/>
                 <% apiData.results.forEach(result => { %>
                     <p><a href="<%= result.url %>" target="_blank"><%= result.title %></a></p>
