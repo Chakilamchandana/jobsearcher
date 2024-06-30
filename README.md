@@ -32,7 +32,7 @@ Create a .env file in the root directory and add your API key and other necessar
 env
 Copy code
 API_URL=https://api.exa.ai/search
-API_KEY=a591ac39-8984-42f5-9abd-24fcc250cf07
+API_KEY=*yourAPIKey*
 PORT=8000
 Running the Application
 Start the server
