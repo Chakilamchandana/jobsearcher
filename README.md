@@ -7,11 +7,16 @@ This is a Node.js application that allows users to search for job openings based
 
 Features
 Home, About, and Contributors pages.
+
+
 Job search functionality that fetches job listings from an external API.
-Renders search results on a results page.
-Prerequisites
-Node.js (version 14 or higher recommended)
-npm (Node Package Manager)
+
+
+Renders search results on a results page.    
+Prerequisites  
+
+Node.js (version 14 or higher recommended)  
+npm (Node Package Manager)  
 An external API key (e.g., from api.exa.ai)
 Installation
 Clone the repository
